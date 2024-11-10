@@ -1,0 +1,113 @@
+
+
+*{
+    
+    padding: 0;
+    margin: 0;
+ }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px 10px;
+    background-color: rgb(141, 141, 231);
+
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    padding:  0 13px;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    }
+ ul > li >a:hover{
+    color: rgb(83, 102, 243);
+ } 
+ main{
+    min-height:85vh ;
+ }  
+ #resultConti{
+    text-transform: capitalize;
+ }
+ footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+ }
+ .container{
+ 
+  
+    margin: center;
+
+    text-align: center;
+    margin-top:15px ;
+    margin-left: 100px;
+ }
+ @media only screen and (max-width:600px){
+  body{  background-color:white;}
+  .container{
+    font-size: 12px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .logo{
+    padding: 6px 0;
+    
+  }
+ 
+
+  
+ }
+ .btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor:pointer;
+ }
+ #connectBtn {
+    background-color: blue; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Add padding for a better button size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Show pointer on hover */
+    border-radius: 5px; /* Optional: rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#connectBtn:hover {
+    background-color: green; /* Green background on hover */
+}
+
+#refreshBtn{
+    background-color: rgb(226, 64, 121); /* Blue background */
+    color: rgb(247, 245, 245); /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Add padding for a better button size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Show pointer on hover */
+    border-radius: 5px; /* Optional: rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-left: 0px;
+    margin-top: 10px;
+}
+#refreshBtn:hover {
+    background-color: rgb(12, 151, 12); /* Green background on hover */
+}
+
+#Submitbtn:hover{
+    background-color: rgb(12, 151, 12); /* Green background on hover */ 
+}
